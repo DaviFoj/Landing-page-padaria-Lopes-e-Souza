@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 🍞 Landing Page - Padaria Lopes e Souza
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o repositório da landing page para a **Padaria Lopes e Souza**, um projeto criado para estabelecer uma presença online moderna e atraente para a padaria. A página foi desenvolvida como uma *Single Page Application* (SPA) utilizando React, com foco em design responsivo, usabilidade e apresentação visual dos produtos.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-In the project directory, you can run:
+## 📄 Índice
 
-### `npm start`
+* [Visão Geral](#-visão-geral)
+* [✨ Funcionalidades](#-funcionalidades)
+* [🎨 Paleta de Cores](#-paleta-de-cores)
+* [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+* [📂 Estrutura de Pastas](#-estrutura-de-pastas)
+* [🚀 Como Rodar o Projeto](#-como-rodar-o-projeto)
+* [📝 Próximos Passos](#-próximos-passos)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖼️ Visão Geral
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A página foi projetada para ser um ponto de contato digital centralizado para os clientes da padaria. Ela apresenta informações essenciais de forma clara e objetiva, incentivando o contato e a realização de encomendas através de CTAs (Chamadas para Ação) bem posicionados. O destaque principal é a vitrine virtual, que exibe fotos de alta qualidade dos produtos de forma apetitosa.
 
-### `npm test`
+*(Sugestão: Adicione aqui um print da sua página quando estiver finalizada!)*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Funcionalidades
 
-### `npm run build`
+-   **Vitrine Virtual Dinâmica:** Uma galeria de imagens com efeito de sobreposição (hover) que revela o nome do produto, criando uma experiência interativa.
+-   **Design Moderno e Responsivo:** A interface se adapta perfeitamente a desktops, tablets e smartphones.
+-   **Seções Informativas:** Áreas dedicadas para apresentar os tipos de produtos, serviços de encomenda, horários de funcionamento e informações de contato.
+-   **Contato Rápido:** Links diretos para ligar para os números de telefone e iniciar uma conversa no WhatsApp.
+-   **Identidade Visual Consistente:** A paleta de cores e o estilo foram baseados no logo da padaria para reforçar a marca.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Paleta de Cores
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Cor                 | Hexadecimal                                                  | Uso Principal                 |
+| ------------------- | ------------------------------------------------------------ | ----------------------------- |
+| 🟩 **Verde Principal** | `#2a4d32`                                                    | Fundos, rodapé e textos escuros |
+|  яр **Verde Destaque** | `#a8e063`                                                    | Botões, links e títulos       |
+| ⬜ **Branco Texto** | `#f5f5f5`                                                    | Textos principais e ícones    |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run eject`
+-   **[React.js](https://reactjs.org/):** Biblioteca principal para a construção da interface de usuário.
+-   **[Styled Components](https://styled-components.com/):** Para a estilização dos componentes de forma isolada e organizada.
+-   **[React Icons](https://react-icons.github.io/react-icons/):** Para a utilização de ícones vetoriais de alta qualidade.
+-   **CSS3:** Utilização de variáveis CSS para o tema, Flexbox e Grid Layout para a estruturação das seções.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Estrutura de Pastas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto foi organizado com uma arquitetura baseada em componentes para facilitar a manutenção e escalabilidade.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+/padaria-lopes-souza
+|
+├── /public
+│   └── index.html
+|
+├── /src
+│   ├── /assets
+│   │   ├── logo.jpg
+│   │   └── /vitrine
+│   │       └── (imagens dos produtos)
+│   │
+│   ├── /components
+│   │   ├── Header.js
+│   │   ├── Hero.js
+│   │   ├── Gallery.js
+│   │   ├── Products.js
+│   │   ├── Services.js
+│   │   ├── Contact.js
+│   │   └── Footer.js
+│   │
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+|
+├── package.json
+└── README.md
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Como Rodar o Projeto
 
-## Learn More
+Siga os passos abaixo para executar o projeto em seu ambiente local.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Pré-requisitos:**
+* [Node.js](https://nodejs.org/en/) (versão 14 ou superior)
+* [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Passos:**
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/padaria-lopes-souza.git](https://github.com/seu-usuario/padaria-lopes-souza.git)
+    ```
 
-### Code Splitting
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd padaria-lopes-souza
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-### Analyzing the Bundle Size
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm start
+    ```
+    A aplicação estará disponível em `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 Próximos Passos
 
-### Making a Progressive Web App
+-   [ ] Implementar um formulário de contato funcional.
+-   [ ] Criar uma página dedicada para o cardápio completo.
+-   [ ] Adicionar animações sutis de entrada para as seções.
+-   [ ] Otimizar as imagens e o código para melhor performance (SEO).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por **[Davi Figueiredo]**.
